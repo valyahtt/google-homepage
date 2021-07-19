@@ -97,13 +97,24 @@
 .grid-2-search-logo {
     grid-column: 1;
     grid-row:2;
-    z-index: 2;
-    
+    z-index: 2; 
+    align-self: center;  
+    justify-self: start;
+    padding-left: 15px;    
 }
 
 .grid-2-search-input {
     grid-column: 1/5;
     grid-row:2;
+}
+
+.grid-2-mic-logo {
+    grid-column: 4;
+    grid-row:2;
+    z-index: 2; 
+    align-self: center;  
+    justify-self: end;
+    padding-right: 15px; 
 }
 
 .grid-3-first-button {
@@ -138,18 +149,13 @@
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    height: 2.5rem;
+    height: 2.2rem;
     border-radius:2rem;
     padding: 0.25rem 4rem;
     border: 1px solid #ced4da;
 }
 
-.search-logo{
-   
-    padding-top:7%;
-    padding-left: 7%;
-   
-}
+
 
 .grid-4 a {
     text-decoration: none;
@@ -160,6 +166,33 @@
 .grid-4 a:hover {
     text-decoration: underline;
 }
+
+.search-input:hover {
+    filter: drop-shadow(4px 4px 5px #ced4da);
+  }
+
+.search-button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.search-button:hover {
+    border: 2px solid rgb(226, 226, 226);
+  }
+  
+
 
 
 /* FOOTER STRUCTURE */
