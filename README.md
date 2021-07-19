@@ -1,1 +1,1 @@
-This will be a project to deconstruct and rebuild an existing webpage
+Recreation of the Google Homepage
